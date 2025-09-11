@@ -1,0 +1,25 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const fasce = [
+        { fascia: "Fascia 1", squadra: "Inter", stemma: "images/inter.png", classe: "fascia1" },
+        { fascia: "Fascia 1", squadra: "Napoli", stemma: "images/napoli.png", classe: "fascia1" },
+        { fascia: "Fascia 1", squadra: "Roma", stemma: "images/roma.png", classe: "fascia1" },
+        { fascia: "Fascia 1", squadra: "Lazio", stemma: "images/lazio.png", classe: "fascia1" },
+        { fascia: "Fascia 2", squadra: "Juventus", stemma: "images/juventus.png", classe: "fascia2" },
+        { fascia: "Fascia 2", squadra: "Milan", stemma: "images/milan.png", classe: "fascia2" },        
+        { fascia: "Fascia 3", squadra: "Atalanta", stemma: "images/atalanta.png", classe: "fascia3" },
+        { fascia: "Fascia 3", squadra: "Bologna", stemma: "images/bologna.png", classe: "fascia3" },
+    ];
+
+    const tbody = document.querySelector('#tabellaFasce tbody');
+    fasce.forEach(item => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td class="${item.classe}">${item.fascia}</td>
+            <td>
+                <img src="${item.stemma}" alt="${item.squadra} Stemma" class="stemma">
+                ${item.squadra}
+            </td>
+        `;
+        tbody.appendChild(row);
+    });
+});

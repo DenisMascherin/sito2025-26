@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANTA MASTERCHEF 2025-2026</title>
+    <link rel="stylesheet" href="sorteggiosquadre.css">
+    <link rel="stylesheet" href="ticker.css"> <!-- Collegamento al file CSS -->
+    <link rel="icon" type="image/png" href="images/Serie_A.png">
+</head>
+<body>
+    <header>
+        <h1>Sorteggio Fantacalcio Lega Udinese 1896</h1>
+    </header>
+
+    <div class="schermata laterale" id="fasce">
+        <h2>Suddivisione Fasce</h2>
+        <table id="tabellaFasce">
+            <thead>
+                <tr>
+                    <th>Fascia</th>
+                    <th>Squadra</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Contenuto popolato dinamicamente -->
+            </tbody>
+        </table>
+    </div>
+
+    <main class="container">
+        <section id="sorteggio">
+            <h2>Estrazione delle squadre</h2>
+            <button id="btnProssimo" onclick="mostraProssimo()">Mostra Prossima Squadra</button>
+            <button id="btnRicomincia" onclick="ricominciaSorteggio()" style="display: none;">Ricomincia Sorteggio</button>
+        </section>
+
+        <section id="risultati">
+            <h2>Risultati</h2>
+            <ul id="output"></ul>
+        </section>
+    </main>
+
+    <div class="schermata laterale" id="classifica">
+        <h2>Classifica Serie A Enilive 2025-2026</h2>
+        <table id="tabellaClassifica">
+            <thead>
+                <tr>
+                    <th>Posizione</th>
+                    <th>Squadra</th>
+                    <th>Punti</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- La classifica verrà popolata dinamicamente -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Menu fisso del Palmares -->
+    <footer id="palmares">
+        <h2>Palmarès</h2>
+        <div class="sezione">
+            <h3>Serie A TIM/Enilive</h3>
+            <ul>
+                <li>2025/2026: 🏆 -- -- (-- --)</li>
+                <li>2024/2025: 🏆 NAPOLI 💙💙 (Mattia Beltrame)</li>
+                <li>2023/2024: 🏆 INTER 🖤💙 (Mattia Beltrame)</li>
+                <li>2022/2023: 🏆 INTER 🖤💙 (Mattia Beltrame)</li>
+                <li>2021/2022: 🏆 ROMA 💛❤️ (Denis Mascherin)</li>
+            </ul>
+        </div>
+        <div class="sezione">
+            <h3>Coppa Italia Frecciarossa</h3>
+            <ul>
+                <li>2025/2026: 🏆 -- -- (-- --)</li>
+                <li>2024/2025: 🏆 BOLOGNA ❤️💙 (Federico Burello)</li>
+                <li>2023/2024: 🏆 JUVENTUS 🤍🖤 (Denis Mascherin)</li>
+            </ul>
+        </div>
+        <div class="sezione">
+            <h3>Fifa World Cup</h3>
+            <ul>
+                <li>2026: 🏆 -- -- <img src="" alt="Bandiera --" style="width: 35px; height: 24px;"> (-- --)</li>
+                <li>2022: 🏆 ARGENTINA <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg" alt="Bandiera Argentina" style="width: 35px; height: 24px;"> (Kevin Sandri)</li>
+            </ul>
+            </div>
+            <div class="sezione">
+                <h3>Euro</h3>
+                <ul>
+                    <li>2024: 🏆 SPAGNA <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" alt="Bandiera Spagna" style="width: 35px; height: 24px;"> (Cristian Tartaro)</li>
+                </ul>
+            </div>
+            </footer>
+            
+    <!-- Script principali -->
+    <script src="sorteggiosquadre.js"></script>
+    <script src="menuDestra.js"></script>
+    <script src="menuSotto.js"></script>
+    <script src="classificaFantacalcio.js"></script>
+    <script src="menuFasce.js"></script> <!-- Nuovo file JS per il menu delle fasce -->
+</body>
+</html>
