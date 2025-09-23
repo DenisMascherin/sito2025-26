@@ -2,14 +2,14 @@
 function aggiornaClassifica() {
     const tabellaBody = document.querySelector("#tabellaClassifica tbody");
     const classificaStatica = [
-        { rank: 1, team: "Juventus", points: 10, logo: "images/juventus.png" },
-        { rank: 2, team: "Napoli", points: 9, logo: "images/napoli.png" },
+        { rank: 1, team: "Napoli", points: 12, logo: "images/Napoli.png" },
+        { rank: 2, team: "Juventus", points: 10, logo: "images/Juventus.png" },
         { rank: 3, team: "Milan", points: 9, logo: "images/milan.png" },
         { rank: 4, team: "Roma", points: 9, logo: "images/roma.png" },
         { rank: 5, team: "Atalanta", points: 8, logo: "images/atalanta.png" },
         { rank: 6, team: "Cremonese", points: 8, logo: "images/cremonese.png" },
         { rank: 7, team: "Cagliari", points: 7, logo: "images/cagliari.png" },
-        { rank: 8, team: "Como", points: 7, logo: "images/cagliari.png" },
+        { rank: 8, team: "Como", points: 7, logo: "images/como.png" },
         { rank: 9, team: "Udinese", points: 7, logo: "images/udinese.png" },
         { rank: 10, team: "Inter", points: 6, logo: "images/inter.png" },
         { rank: 11, team: "Bologna", points: 6, logo: "images/bologna.png" },
