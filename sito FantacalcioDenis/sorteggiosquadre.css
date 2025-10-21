@@ -169,6 +169,40 @@ footer#palmares {
     text-align: center;
 }
 
+/* Stili specifici per il contenuto del Palmares */
+footer#palmares h2,
+footer#palmares h3 {
+    text-align: left;
+}
+
+footer#palmares ul {
+    text-align: left;
+}
+footer#palmares li {
+    justify-content: flex-start; /* Allinea gli elementi a sinistra */
+}
+/* Allinea verticalmente le bandiere nel Palmares usando flexbox */
+footer#palmares li img {
+    /* Rimuoviamo il vecchio allineamento per usare flexbox */
+    /* vertical-align: middle; */
+    margin: 0 5px; /* Aggiunge un po' di spazio attorno alla bandiera */
+    align-self: center; /* Centra l'immagine rispetto agli altri elementi flex */
+}
+
+/* Stile per il nome dell'allenatore nel Palmares */
+footer#palmares .allenatore {
+    display: block; /* Manda il nome a capo */
+    font-size: 0.8em; /* Rende il testo leggermente più piccolo */
+    color: #666; /* Colore più tenue */
+    padding-left: 30px; /* Lo allinea leggermente a destra per un effetto rientrato */
+    font-style: italic;
+}
+
+/* Nasconde le immagini segnaposto nel Palmares che non hanno una sorgente */
+footer#palmares li img:not([src]), footer#palmares li img[src=""] {
+    display: none;
+}
+
 /* Classifica a destra */
 .schermata.laterale#classifica {
     right: 20px;
