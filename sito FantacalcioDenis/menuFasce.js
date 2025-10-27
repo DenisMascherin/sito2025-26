@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
         { fascia: "Fascia 1", squadra: "Inter", stemma: "images/inter.png", classe: "fascia1" },
         { fascia: "Fascia 1", squadra: "Napoli", stemma: "images/napoli.png", classe: "fascia1" },
         { fascia: "Fascia 1", squadra: "Roma", stemma: "images/roma.png", classe: "fascia1" },
-        { fascia: "Fascia 2", squadra: "Juventus", stemma: "images/juventus.png", classe: "fascia2" },
         { fascia: "Fascia 2", squadra: "Atalanta", stemma: "images/atalanta.png", classe: "fascia2" },
+        { fascia: "Fascia 2", squadra: "Lazio", stemma: "images/lazio.png", classe: "fascia2" },
+        { fascia: "Fascia 3", squadra: "Juventus", stemma: "images/juventus.png", classe: "fascia3" },
         { fascia: "Fascia 3", squadra: "Bologna", stemma: "images/bologna.png", classe: "fascia3" },
-        { fascia: "Fascia 3", squadra: "Lazio", stemma: "images/lazio.png", classe: "fascia3" },
     ];
 
     const tbody = document.querySelector('#tabellaFasce tbody');
