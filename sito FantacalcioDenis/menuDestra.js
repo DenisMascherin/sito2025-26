@@ -12,7 +12,7 @@ function aggiornaClassifica() {
         { rank: 8, team: "Juventus", points: 12, logo: "images/juventus.png" },
         { rank: 9, team: "Udinese", points: 12, logo: "images/udinese.png" },
         { rank: 10, team: "Lazio", points: 11, logo: "images/lazio.png" },
-        { rank: 11, team: "Cremonese", points: 10, logo: "images/cremonese.png" },
+        { rank: 11, team: "Cremonese", points: 11, logo: "images/cremonese.png" },
         { rank: 12, team: "Torino", points: 11, logo: "images/torino.png" },
         { rank: 13, team: "Sassuolo", points: 10, logo: "images/sassuolo.png" },
         { rank: 14, team: "Cagliari", points: 9, logo: "images/cagliari.png" },
