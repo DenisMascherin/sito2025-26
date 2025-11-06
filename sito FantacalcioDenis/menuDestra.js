@@ -21,7 +21,7 @@ function aggiornaClassifica() {
         { rank: 17, team: "Pisa", points: 6, logo: "images/pisa.png" },
         { rank: 18, team: "Genoa", points: 6, logo: "images/genoa.png" },
         { rank: 19, team: "Verona", points: 5, logo: "images/verona.png" },
-        { rank: 20, team: "Fiorentina", points: 4, logo: "images/genoa.png" },
+        { rank: 20, team: "Fiorentina", points: 4, logo: "images/fiorentina.png" },
     ];
 
     tabellaBody.innerHTML = ""; // Pulisce la tabella
