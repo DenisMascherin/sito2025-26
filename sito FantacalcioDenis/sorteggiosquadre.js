@@ -1,5 +1,5 @@
 let fascia1_allenatori = ["Lorenzo Moro", "Federico Burello", "Mattia Beltrame", "Denis Mascherin"];
-let fascia2_allenatori = ["Alex Beltrame", "Kevin Di Bernardo"];
+let fascia2_allenatori = ["Kevin Di Bernardo", "Alex Beltrame"];
 let fascia3_allenatori = ["Cristian Tartaro", "Nicola Marano"];
 
 let fascia1_squadre = ["Napoli", "Inter", "Milan", "Roma"];
