@@ -10,14 +10,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Dati della classifica del Fantacalcio con stemmi
         const squadreFantacalcio = [
-            { pos: 1, nome: "Milan", punti: 22, logo: "images/milan.png" },
-            { pos: 2, nome: "Inter", punti: 19, logo: "images/inter.png" },
-            { pos: 3, nome: "Napoli", punti: 18, logo: "images/napoli.png" },
-            { pos: 4, nome: "Juventus", punti: 15, logo: "images/juventus.png" },
-            { pos: 5, nome: "Atalanta", punti: 12, logo: "images/atalanta.png" },
-            { pos: 6, nome: "Roma", punti: 12, logo: "images/roma.png" },
-            { pos: 7, nome: "Lazio", punti: 12, logo: "images/lazio.png" },
-            { pos: 8, nome: "Bologna", punti: 11, logo: "images/bologna.png" },
+            { pos: 1, nome: "Milan", punti: 24, logo: "images/milan.png" },
+            { pos: 2, nome: "Inter", punti: 21, logo: "images/inter.png" },
+            { pos: 3, nome: "Napoli", punti: 20, logo: "images/napoli.png" },
+            { pos: 4, nome: "Juventus", punti: 14, logo: "images/juventus.png" },
+            { pos: 5, nome: "Atalanta", punti: 14, logo: "images/atalanta.png" },
+            { pos: 6, nome: "Roma", punti: 11, logo: "images/roma.png" },
+            { pos: 7, nome: "Lazio", punti: 11, logo: "images/lazio.png" },
+            { pos: 8, nome: "Bologna", punti: 10, logo: "images/bologna.png" },
         ];
 
         // Costruzione della tabella
