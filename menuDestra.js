@@ -24,7 +24,7 @@ function aggiornaClassifica() {
         { rank: 20, team: "Verona", points: 6, logo: "images/verona.png" },
     ];
 
-    tabellaBody.innerHTML = ""; // Pulisce la tabella
+    tabellaBody.innerHTML = ""; // Pulisce la tabella    
     classificaStatica.forEach(team => {
         const riga = document.createElement("tr");
 
