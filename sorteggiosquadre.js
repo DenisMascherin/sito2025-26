@@ -1,10 +1,10 @@
-let fascia1_allenatori = ["Lorenzo Moro", "Mattia Beltrame", "Federico Burello", "Denis Mascherin"];
-let fascia2_allenatori = ["Kevin Di Bernardo", "Cristian Tartaro"];
+let fascia1_allenatori = ["Lorenzo Moro", "Mattia Beltrame", "Federico Burello", "Kevin Di Bernardo"];
+let fascia2_allenatori = ["Denis Mascherin", "Cristian Tartaro"];
 let fascia3_allenatori = ["Alex Beltrame", "Nicola Marano"];
 
 let fascia1_squadre = ["Milan", "Napoli", "Inter", "Roma"];
-let fascia2_squadre = ["Como", "Bologna"];
-let fascia3_squadre = ["Juventus", "Lazio"];
+let fascia2_squadre = ["Bologna", "Como"];
+let fascia3_squadre = ["Juventus", "Sassuolo"];
 
 let risultati = [];
 let risultatiMostrati = 0;
