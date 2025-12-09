@@ -2,7 +2,7 @@ let fascia1_allenatori = ["Mattia Beltrame", "Federico Burello", "Lorenzo Moro",
 let fascia2_allenatori = ["Denis Mascherin", "Cristian Tartaro"];
 let fascia3_allenatori = ["Alex Beltrame", "Nicola Marano"];
 
-let fascia1_squadre = ["Inter", "Milan", "Napoli", "Roma"];
+let fascia1_squadre = ["Milan", "Napoli", "Inter", "Roma"];
 let fascia2_squadre = ["Bologna", "Como"];
 let fascia3_squadre = ["Juventus", "Sassuolo"];
 
