@@ -24,7 +24,7 @@ function aggiornaClassifica() {
         { rank: 20, team: "Fiorentina", points: 6, logo: "images/fiorentina.png" },
     ];
 
-    tabellaBody.innerHTML = ""; // Pulisce la tabella
+    tabellaBody.innerHTML = ""; // Pulisce la tabella    
     classificaStatica.forEach(team => {
         const riga = document.createElement("tr");
 
